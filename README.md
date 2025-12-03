@@ -9,7 +9,7 @@ This repository is a composition of multiple shell scripts included as steps in 
 # Ensure the user has dialog installed
 if ! command -v dialog &> /dev/null; then
     echo "dialog is required for this script. Installing..."
-    sudo apt-get install -y dialog || { echo "Failed to install dialog"; exit 1; }
+    echo "check in with apt, dnf, or yum"
 fi
 
 # Step 1: Prompt the user for the internal drive name
