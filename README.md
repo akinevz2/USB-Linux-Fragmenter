@@ -1,9 +1,7 @@
-# USB-Linux-Optimiser
+# USB-Linux-Fragmenter
 This repository is a composition of multiple shell scripts included as steps in building and optimising a LiveUSB install.
 
 ```bash
-#!/bin/bash
-
 #!/bin/bash
 
 # Ensure the user has dialog installed
